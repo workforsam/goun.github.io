@@ -1,0 +1,161 @@
+body{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Poiret One", "Open Sans", sans-serif;
+    font-size: 20px;
+/*    font-weight: bold;*/
+    
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 30px 6px rgba(0, 0, 0, 0.2);
+    background-color: #dce8fa;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.main-logo{
+    margin-top: 10px;
+}
+
+.style-menu1 {
+    display: flex;
+    list-style: none;
+    margin-top: -8px;
+}
+
+.style-menu1 li{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 25px;
+    
+}
+
+.style-menu1 a{
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+}
+
+.menu2 {
+    margin-right: 75px;
+    width: 300px;
+}
+
+.sub-menu li {
+    padding-bottom: 5px;
+}
+
+.sub-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.foto {
+    width: 800px;
+    height: 590px;
+    display: flex;
+/*
+    align-items: flex-start;
+    justify-content: space-around;
+*/
+    margin-top: 70px;
+}
+
+.foto a:nth-child(2) {
+    align-self: flex-end;
+}
+
+/*
+img:nth-child(1) {
+    margin-right: 20px;
+}
+*/
+
+.main-text{
+    width: 750px;
+    background-color: white;
+    border-radius: 50px 50px;
+    padding: 5px 33px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: -40px;
+    list-style: none;
+    
+}
+
+.menu-footer li{
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+
+.menu-footer a {
+    text-decoration: none;    
+}
+
+.text1 {
+    font-size: 14px;
+}
+
+.decor {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.active {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    background-color: forestgreen;
+    border-radius: 50px 50px;
+}
+
+.text {
+    margin-top: px;
+}
+
+.line {
+    text-indent: 25px;
+}
+
+.biography_bfoto {
+    display: flex;
+    align-items: center
+}
+
+.bfoto {
+    margin-right: 10px;
+}
+
+.exception {
+    list-style-type: none;
+}
+
+.distance {
+    margin-bottom: -1px;
+}
+
+
